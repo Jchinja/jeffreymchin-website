@@ -1,9 +1,23 @@
+{{ define "middle" }}
+
+<h2>adding new formatting</h2>
+
+{{ end }}
+
+
+
+
 {{ define "main" }}
 
-<h1>Hugo with Webpack, Sass, and PostCSS</h1>
+<h1>Hugo with Webpack, Sass, and PostCSS
+    {{add 1 2}}
+</h1>
 
 <h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
 
 <a href="{{ "/tech" | relURL }}">Check out the tech</a>
 <a href="/test">testing webpage</a>
+<a href="/contact"> link to contact </a>
 {{ end }}
+
+
